@@ -13,7 +13,7 @@ variable "location" {
   description = "The Azure Region where the Windows Web App should exist.Central India or South India"
 }
 
-variable "service_plan_id" {
+variable "app_service_id" {
   type        = string
   description = "The ID of the Service Plan that this Windows App Service will be created in."
 
