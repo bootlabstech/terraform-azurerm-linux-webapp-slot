@@ -7,13 +7,16 @@ variable "resource_group_name" {
   type        = string
   description = "The name of the Resource Group where the Windows Web App should exist."
 }
-
+variable "current_stack" {
+  type        = string
+  description = "The name of the Resource Group where the Windows Web App should exist."
+}
 variable "location" {
   type        = string
   description = "The Azure Region where the Windows Web App should exist.Central India or South India"
 }
 
-variable "app_service_id" {
+variable "service_plan_id" {
   type        = string
   description = "The ID of the Service Plan that this Windows App Service will be created in."
 
